@@ -2,7 +2,7 @@ from manim import *
 import numpy as np
 
 
-class LinearTransformation(MovingCameraScene):
+class Determinant(MovingCameraScene):
 
     scale = 1.5
     matrix1 = np.array([[1, 1], [0, 2]])  # attention, c'est une liste de lignes ici pas de colonnes

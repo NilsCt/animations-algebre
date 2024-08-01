@@ -4,8 +4,6 @@ Ce projet est un ensemble de plusieurs animations courtes pour visualiser des no
 
 L'objectif est d'aider à donner une intuition pour mieux comprendre ces objets mathématiques.
 
-L'intuition est importante, car elle permet de faire des liens entre les notions, de déduire rapidement leurs propriétés et de trouver comment aborder un problème.
-
 #### Avertissement : ce projet est en cours de développement.
 
 ## Sommaire
@@ -16,9 +14,9 @@ L'intuition est importante, car elle permet de faire des liens entre les notions
 
 ## Installation<a name="installation"></a>
 
-Les animations se font grâce à la librairie [ManimCommunity]([GitHub - ManimCommunity/manim: A community-maintained Python framework for creating mathematical animations.](https://github.com/ManimCommunity/manim)).
+Les animations se font grâce à la librairie [ManimCommunity](https://github.com/ManimCommunity/manim).
 
-Ainsi, il faut d'abord suivre leur tutoriel pour installer Manim.
+Il faut d'abord suivre leur tutoriel pour installer Manim.
 
 Il suffit ensuite de télécharger le code des animations et d'utiliser la commande :
 
@@ -32,24 +30,20 @@ Ici `qm` donne une qualité moyenne. Pour générer plus rapidement l'animation 
 
 Pour le rendu final, on peut choisir parmi `qh` ou `qk` pour avoir une qualité optimale.
 
-Exemple pour les tests :
+Exemple :
 
 ```
-manim -pql fichier.py
+manim -pql det.py
 ```
 
 ## Liste des animations <a name="animations"></a>
 
 Les vidéos des animations terminées sont dans le dossier "videos".
 
-- [ ] Déterminant (en cours)
+- [x] Déterminant
 
-- [ ] Vecteurs propres
+![Déterminant1](https://github.com/NilsCt/animations-algebre/blob/main/images/det1.png)
 
-- [ ] Isométries
+![Déterminant2](https://github.com/NilsCt/animations-algebre/blob/main/images/det2.png)
 
-- [ ] Transformations linéaires ?
-
-- [ ] Matrices symétriques ?
-
-- [ ] Procédé d'orthogonalisation de Gram Schmidt ?
+- [ ] Vecteurs propres (en cours)
